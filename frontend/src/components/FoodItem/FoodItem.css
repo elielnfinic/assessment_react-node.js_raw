@@ -5,7 +5,6 @@
     box-shadow: 0px 0px 10px #00000015;
     transition: 0.3s;
     animation: fadeIn 1s;
-}
 
 .food-item-image{
     width: 100%;
@@ -67,8 +66,17 @@
     padding: 6px;
     border-radius: 50px;
     background-color: white;
+    min-width: 100px;
+    justify-content: space-between;
 }
 
 .food-item-counter img{
     width: 30px;
+    display: block;
+}
+/* Ensure minus icon stays in place */
+.food-item-counter img:first-child {
+    margin-right: 0;
+    margin-left: 0;
+}
 }
