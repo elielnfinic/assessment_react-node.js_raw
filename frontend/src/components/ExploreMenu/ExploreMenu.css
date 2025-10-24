@@ -1,3 +1,11 @@
+/* Zoom-in effect for menu images on hover */
+.explore-menu-list-item img {
+    transition: transform 0.3s ease;
+}
+
+.explore-menu-list-item:hover img {
+    transform: scale(1.1);
+}
 .explore-menu{
     display: flex;
     flex-direction: column;
